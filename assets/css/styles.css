@@ -10,16 +10,24 @@ body {
 }
 
 .input {
-	height: 50px;
+	height: 60px;
 	width: 250px;
 	margin: 5px;
 	background-color: #BBBBBB;
 	text-align: right;
 }
 
+#inputHistory {
+	height: 20px;
+	letter-spacing: 0.1rem;
+	line-height: 20px;
+	font-size: 1rem;
+	margin-right: 5px;
+}
+
 #inputField {
 	letter-spacing: 0.1rem;
-    line-height: 50px;
+    line-height: 40px;
     font-size: 2rem;
     margin-right: 5px;
 }
