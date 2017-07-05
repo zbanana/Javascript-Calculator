@@ -30,6 +30,9 @@ function Calculator() {
 		if (result === 0) {
 			return result = num;
 		};
+		console.log("RESULT: " + result);
+		console.log("NUM: " + num);
+		console.log("OPERATOR: " + operator);
 		switch(operator) {
 			case "*":
 				return this.multiply(num);
